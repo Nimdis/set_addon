@@ -12,6 +12,7 @@ group :default do
   gem 'turbolinks'
   gem 'rails', '4.0.2'
   gem 'mysql2'
+  gem 'annotate', ">=2.6.0"
 end
 
 gem 'debugger', group: [:development, :test]

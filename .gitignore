@@ -19,3 +19,4 @@
 /tmp/*
 /vendor/bundle
 .keep
+db/schema.rb
