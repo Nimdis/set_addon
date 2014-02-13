@@ -1,4 +1,5 @@
 SetAddon::Application.routes.draw do
   resources :names
-  root 'names#index'
+  resources :main
+  root 'main#index'
 end

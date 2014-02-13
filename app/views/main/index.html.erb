@@ -1,0 +1,13 @@
+<%= form_tag({:action => :index}, multipart: true) do %>
+  <p>
+    <%= select_tag options_from_collection_for_select(@events, :vernr, :bezeichnung) %>
+  </p>
+  <p>
+    <%= select_tag options_from_collection_for_select(@clubs, :vereinnr, :bezeichnung) %>
+  </p>
+  <p>
+    <%= file_field_tag :application %>
+  </p>
+  <%= submit_tag 'Загрузить' %>
+<% end %>
+
